@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.contoller.FirstpageController">
+   <children>
+      <Label layoutX="242.0" layoutY="14.0" prefHeight="42.0" prefWidth="115.0" text="Thogakade">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="56.0" text="Home">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="savebtn" layoutX="220.0" layoutY="118.0" mnemonicParsing="false" onAction="#savebtnonAction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Customer">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="manageItembtn" layoutX="220.0" layoutY="163.0" mnemonicParsing="false" onAction="#manageItembtnonAction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Item">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="manageOrderbtn" layoutX="220.0" layoutY="208.0" mnemonicParsing="false" onAction="#manageOrderbtnonAction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="orderdetailbtn" layoutX="220.0" layoutY="252.0" mnemonicParsing="false" onAction="#orderdetailbtnonaction" prefHeight="37.0" prefWidth="190.0" style="-fx-background-radius: 10px; -fx-border-radius: 10px;" text="Manage Order Details">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtfield" layoutX="1.0" layoutY="1.0" onAction="#txtfieldonaction" style="-fx-background-color: transparent; -fx-border-color: transparent;" />
+      <Text fx:id="code" layoutX="104.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal#vishal" visible="false" wrappingWidth="470.93658447265625" />
+   </children>
+</AnchorPane>

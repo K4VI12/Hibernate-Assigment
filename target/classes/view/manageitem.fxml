@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.contoller.ManageitemController">
+   <children>
+      <Button fx:id="savebtn" layoutX="131.0" layoutY="303.0" mnemonicParsing="false" onAction="#savebtnonaction" prefHeight="26.0" prefWidth="74.0" text="Save" />
+      <TextField fx:id="codetxt" layoutX="150.0" layoutY="88.0" prefHeight="26.0" prefWidth="299.0" promptText=" code" />
+      <TextField fx:id="descriptiontxt" layoutX="150.0" layoutY="135.0" prefHeight="26.0" prefWidth="299.0" promptText="description" />
+      <TextField fx:id="unitpricetxt" layoutX="150.0" layoutY="184.0" prefHeight="26.0" prefWidth="299.0" promptText="unitPrice" />
+      <TextField fx:id="qtyonhandtxt" layoutX="150.0" layoutY="233.0" prefHeight="26.0" prefWidth="299.0" promptText="qtyOnHand" />
+      <Button fx:id="updatebtn" layoutX="219.0" layoutY="303.0" mnemonicParsing="false" onAction="#updatebtnonaction" prefHeight="26.0" prefWidth="74.0" text="Update" />
+      <Button fx:id="deletebtn" layoutX="305.0" layoutY="303.0" mnemonicParsing="false" onAction="#deletebtnonaction" prefHeight="26.0" prefWidth="74.0" text="Delete" />
+      <Button fx:id="searchbtn" layoutX="394.0" layoutY="303.0" mnemonicParsing="false" onAction="#searchbtnonaction" prefHeight="26.0" prefWidth="74.0" text="Search" />
+   </children>
+</AnchorPane>
